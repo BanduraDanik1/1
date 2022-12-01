@@ -17,7 +17,6 @@ function onStartBtn (e) {
         return
     }
     isActive = true;
-    console.log('h')
     intervalId = setInterval(() => {
         bodyEl.style.backgroundColor = getRandomHexColor()
         console.log(`Color - ${bodyEl.style.backgroundColor}`)
