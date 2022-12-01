@@ -37,6 +37,5 @@ function createPromise(position, delay) {
       }
       reject(`❌ Rejected promise ${position} in ${delay}ms`);
     }, delay);
-    //delay = delay + stepDelay;
   });
 }
