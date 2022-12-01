@@ -25,4 +25,5 @@ function onStartBtn (e) {
 
 function onStopBtn (e) {
     clearInterval(intervalId)
+    isActive = false;
 }
