@@ -12,6 +12,7 @@ const options = {
     minuteIncrement: 1,
     onClose(selectedDates) {
       console.log(selectedDates[0]);
-    },
+    }
   };
+
 flatpickr(inputEl, options);
